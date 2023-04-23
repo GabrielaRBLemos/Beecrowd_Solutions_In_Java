@@ -1,0 +1,14 @@
+import java.io.IOException;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws IOException {
+        int numA;
+        int numB;
+        int result;
+        Scanner myScanner = new Scanner(System.in);
+        numA = Integer.parseInt(myScanner.nextLine());
+        numB = Integer.parseInt(myScanner.nextLine());
+        result = numA * numB;
+        System.out.println("PROD = " + result);
+    }
+}
