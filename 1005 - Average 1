@@ -1,0 +1,13 @@
+import java.io.IOException;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner myScanner = new Scanner(System.in);
+        float numA = Float.parseFloat(myScanner.nextLine());
+        float numB = Float.parseFloat(myScanner.nextLine());
+        float weightA = 3.5f;
+        float weightB = 7.5f;
+        float result = ((weightA * numA) + (weightB * numB))/(weightB+weightA);
+        System.out.printf("MEDIA = %.5f\n", result);
+    }
+}
